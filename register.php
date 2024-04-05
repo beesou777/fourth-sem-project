@@ -7,5 +7,8 @@
 </head>
 <body>
     register
+    <form action="create_user.php" method="post">
+        <button>hello</button>
+    </form>
 </body>
 </html>
