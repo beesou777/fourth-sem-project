@@ -1,0 +1,22 @@
+.side-navbar{
+    width:250px;
+    background-color: #f9f9f9;
+    border-left: 1px solid gray;
+    height: 100vh;
+}
+
+.side-navbar .nav-link{
+    padding: 20px;
+}
+
+.side-navbar .nav-link.active{
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.side-navbar .nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
