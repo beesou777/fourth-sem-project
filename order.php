@@ -7,38 +7,51 @@ require_once('component/template.php');
 <main>
     <?php include "component/TopNavbar.php" ?>
 <div class="container-max px-4">
-    <h1>Our order</h1>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="product1.jpg" class="card-img-top" alt="Product 1">
-                <div class="card-body">
-                    <h5 class="card-title">Product 1</h5>
-                    <p class="card-text">Description of Product 1.</p>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="product2.jpg" class="card-img-top" alt="Product 2">
-                <div class="card-body">
-                    <h5 class="card-title">Product 2</h5>
-                    <p class="card-text">Description of Product 2.</p>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="product3.jpg" class="card-img-top" alt="Product 3">
-                <div class="card-body">
-                    <h5 class="card-title">Product 3</h5>
-                    <p class="card-text">Description of Product 3.</p>
-                    <a href="#" class="btn btn-primary">Buy Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h2>Our Products</h2>
+    <table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#id</th>
+      <th scope="col">Item Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Category</th>
+      <th scope="col">Discount</th>
+      <th scope="col">stock</th>
+      <th scope="col">isactive</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+      <td>@mdo</td>
+      <td>@twitter</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>@fat</td>
+      <td>@fat</td>
+      <td>@twitter</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 </main>
